@@ -1,2 +1,2 @@
-# go-web-demo
-基于 gin 的 web 开发框架
+# my-go-web-demo
+基于 gin 的 web 开发练习

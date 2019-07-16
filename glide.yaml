@@ -1,0 +1,6 @@
+package: demo
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.3
+- package: github.com/go-redis/redis
+  version: v6.15.2
