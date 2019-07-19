@@ -1,15 +1,15 @@
 package main
 
 import (
-	"demo/ctrl"
-	"demo/middleware"
+	"my-go-web-demo/ctrl"
+	"my-go-web-demo/middleware"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	e := gin.Default()
 
-	//中间件函数，捕获404跳转到404公益页
+	//中间件函数
 	setMiddleWare(e)
 	//注册路由
 	setHandler(e)
@@ -18,6 +18,7 @@ func main() {
 }
 
 func setMiddleWare(e *gin.Engine) {
+	//捕获404跳转到404公益页
 	e.Use(middleware.Err404())
 }
 

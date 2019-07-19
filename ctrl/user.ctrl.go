@@ -1,7 +1,7 @@
 package ctrl
 
 import (
-	"demo/service"
+	"my-go-web-demo/service"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
