@@ -1,8 +1,0 @@
-hash: 0a85b686dffd51add9aa629c7aa7d9221e53a79c1c99a3a7e32372c64660ab92
-updated: 2019-04-09T16:30:01.316427943+08:00
-imports:
-- name: github.com/gin-gonic/gin
-  version: b869fe1415e4b9eb52f247441830d502aece2d4d
-- name: github.com/go-redis/redis
-  version: d22fde8721cc915a55aeb6b00944a76a92bfeb6e
-testImports: []
